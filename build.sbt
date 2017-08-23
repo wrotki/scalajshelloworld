@@ -3,3 +3,7 @@ lazy val root = project.
 
 scalaJSUseMainModuleInitializer := true
 
+libraryDependencies += "com.lihaoyi" %%% "utest" % "0.4.8" % "test"
+
+testFrameworks += new TestFramework("utest.runner.Framework")
+
