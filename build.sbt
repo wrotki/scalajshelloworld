@@ -1,5 +1,8 @@
-lazy val root = project.
-  enablePlugins(ScalaJSPlugin)
+name := "Scala Hello World"
+
+scalaVersion := "2.12.2" // or any other Scala version >= 2.10.2
+
+enablePlugins(ScalaJSPlugin)
 
 scalaJSUseMainModuleInitializer := true
 
