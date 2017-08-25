@@ -6,6 +6,6 @@ object Main {
 
   @JSExportTopLevel("org.company.HelloWorld")
   def main(args: Array[String]): Unit = {
-    println("Hello world!")
+    println("Hello beautiful world!")
   }
 }

@@ -3,4 +3,6 @@ root/
 .idea/
 project/project/
 project/target/
+jsdeps.js
+route_def.js
 
